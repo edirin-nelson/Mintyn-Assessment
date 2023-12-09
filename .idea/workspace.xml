@@ -4,49 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91696467-2729-4d99-834d-2176eebe03e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Mintyn-Assessment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/MintynAssessmentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/config/SecurityConfigFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/dto/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/dto/request/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/dto/response/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/dto/response/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/dto/response/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/dto/response/RegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/entity/JwtToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/exceptions/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/exceptions/PasswordMismatchException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/exceptions/UserAccountDisabledException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/exceptions/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/exceptions/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/repository/JwtTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/security/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/security/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/service/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/service/serviceImpl/AuthenticationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/service/serviceImpl/LogoutServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/service/serviceImpl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/java/com/mintyn/mintynassessment/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mintyn-assessment/src/test/java/com/mintyn/mintynassessment/MintynAssessmentApplicationTests.java" afterDir="false" />
+    <list default="true" id="91696467-2729-4d99-834d-2176eebe03e1" name="Changes" comment="implementing security, jwt and configuring database">
+      <change beforePath="$PROJECT_DIR$/mintyn-assessment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mintyn-assessment/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +32,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/EdirinNelson/Desktop/Edirin/FCMB/Mintyn-Assessment/mintyn-assessment/src/main/java/com/mintyn/mintynassessment"
@@ -83,6 +41,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\EdirinNelson\Desktop\Edirin\FCMB\Mintyn-Assessment\mintyn-assessment\src\main\java\com\mintyn\mintynassessment" />
       <recent name="C:\Users\EdirinNelson\Desktop\Edirin\FCMB\Mintyn-Assessment\mintyn-assessment\src\main\java\com\mintyn\mintynassessment\security" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EdirinNelson\Desktop\Edirin\FCMB\Mintyn-Assessment" />
+      <recent name="C:\Users\EdirinNelson\Desktop\Edirin\FCMB\Mintyn-Assessment\mintyn-assessment" />
     </key>
   </component>
   <component name="RunManager">
@@ -102,8 +64,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702101449397</updated>
-      <workItem from="1702101451284" duration="3821000" />
+      <workItem from="1702101451284" duration="5335000" />
     </task>
+    <task id="LOCAL-00001" summary="implementing security, jwt and configuring database">
+      <created>1702108525609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702108525609</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implementing security, jwt and configuring database">
+      <created>1702108617921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702108617921</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implementing security, jwt and configuring database">
+      <created>1702108708713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702108708713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="implementing security, jwt and configuring database" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing security, jwt and configuring database" />
   </component>
 </project>
